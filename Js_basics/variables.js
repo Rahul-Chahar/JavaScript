@@ -6,4 +6,4 @@ accountCity = "Mathura"
 // accountId =2  (not allowed)
 //console.log(accountId,accountEmail,accountPassword,accountCity)
 
-console.table([accountId,accountEmail,accountPassword,accountCity])
+console.table([accountId,accountEmail,accountPassword,accountCity]);
