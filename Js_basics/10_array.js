@@ -17,9 +17,9 @@ myArr.shift()  //Remove First Element
 // console.log(myArr.includes(5));
 // console.log(myArr.indexOf(5));
 
-// const newArr = myArr.join()
-// console.log(myArr)
-// console.log(newArr)
+const newArr = myArr.join()  //Join used for convert in string
+console.log(myArr)
+console.log(newArr)
 
 // slice , splice
 /**
@@ -27,11 +27,11 @@ myArr.shift()  //Remove First Element
  * 
  * splice -> Ye orignial array koh manipulate karta hai
  */
-console.log("A ",myArr)
+// console.log("A ",myArr)
 const myn1 = myArr.slice(1,3)
-console.log(myn1);
-console.log("B ",myArr);
+// console.log(myn1);
+// console.log("B ",myArr);
 
 const myn2 = myArr.splice(1,3)
-console.log(myn2);
-console.log("C ", myArr);
+// console.log(myn2);
+// console.log("C ", myArr);
